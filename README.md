@@ -1,7 +1,7 @@
 
-# nocopho
+# No-Context Photos
 
-No-Context Photos. Replace anything that's not a 'person' in your photo with a new Background Image.
+Replace anything that's not a 'person' in your photo with a new Background Image.
 Uses PyTorch, Deeplabv3, ResNet101
 Requires CUDA!
 
