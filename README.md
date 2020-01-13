@@ -5,6 +5,11 @@ No-Context Photos. Replace anything that's not a 'person' in your photo with a n
 Uses PyTorch, Deeplabv3, ResNet101
 Requires CUDA!
 
+## Examples
+|<img src="https://user-images.githubusercontent.com/737888/72228119-d418a300-3558-11ea-9757-88774d7ac820.jpg" width="180" height="320" />  | <img src="https://user-images.githubusercontent.com/737888/72228127-e0046500-3558-11ea-8b8a-884d65bb08d8.jpg" width = "180" height = "320" /> |
+|--|--|
+|<img src="https://user-images.githubusercontent.com/737888/72228120-d418a300-3558-11ea-957e-311c7977661e.jpg" width="320" height="180" />  | <img src="https://user-images.githubusercontent.com/737888/72228128-e0046500-3558-11ea-931c-4382c4b8b1c8.jpg" width = "320" height = "180" /> |
+
 ## Windows Quickstart
 1. Install [Python 3.6](https://www.python.org/downloads/)
 2. Create Virtual Environment
@@ -19,11 +24,7 @@ Requires CUDA!
     http://your.ip.address:5000 
     
 
-  
-
 ## Quickstart Breakdown
-
-  
 
 #### Create Virtual Environment
 
@@ -35,8 +36,6 @@ On Windows, run:
 
 You then 'activate' this environment by running this in a command prompt: `"env/Scripts/activate"`, which runs the activate.bat script. You need the double quotes for Windows to understand the command. Once you run this, your prompt should update to show `(env)` instead of `C:\FolderName` or wherever you saved the project.
 
-  
-
 #### Install Requirements.
 
 The requirements have been saved into the requirements.txt file, so you can install this file with this command:
@@ -47,33 +46,22 @@ The -f argument points pip towards the right place to download the torch and tor
 
 If you have issues with PyTorch, you can install it for a specific Python + Cuda version using the instructions [here](https://pytorch.org/get-started/locally/).
 
-  
 
-## Execution
-
-  
+## Execution  
 
 #### Run the Server.
 
 I do it this way: `flask run --host 0.0.0.0`, which will start the server in a way that other machines on your local network can access the host.
 
-  
 
 #### Visit the page in a browser (mobile browsers best).
 Get your ip and visit it in a browser on port 5000. It will be something like http://192.168.1.15:5000
 
-  
 
 ## Customization
 
 Change the BGPortrait.jpg and BGLandscape.jpg files in the /media folder to use your own background images.
 
-## Examples
-|<img src="https://user-images.githubusercontent.com/737888/72228119-d418a300-3558-11ea-9757-88774d7ac820.jpg" width="180" height="320" />  | <img src="https://user-images.githubusercontent.com/737888/72228127-e0046500-3558-11ea-8b8a-884d65bb08d8.jpg" width = "180" height = "320" /> |
-|--|--|
-|<img src="https://user-images.githubusercontent.com/737888/72228120-d418a300-3558-11ea-957e-311c7977661e.jpg" width="320" height="180" />  | <img src="https://user-images.githubusercontent.com/737888/72228128-e0046500-3558-11ea-931c-4382c4b8b1c8.jpg" width = "320" height = "180" /> |
-
-  
 
 ## Credits
 
