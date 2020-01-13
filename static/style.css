@@ -1,0 +1,22 @@
+body {
+    background-color: #1c1f30;
+}
+
+#loading {
+    width: 100%;
+    height: 100%;
+    color:white;
+}
+
+#capture {
+    display: none;
+}
+
+#capture-button {
+    font-size: 3em;
+}
+
+#main {
+    padding: 100px;
+    text-align: center;
+}
