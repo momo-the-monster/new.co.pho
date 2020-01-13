@@ -1,5 +1,5 @@
 
-# No-Context Photos
+# NewCoPho | New Context Photos
 
 Replace anything that's not a 'person' in your photo with a new Background Image.
 Uses PyTorch, Deeplabv3, ResNet101
